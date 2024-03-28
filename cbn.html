@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBN LINK</title>
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: 'Montserrat', sans-serif;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      text-align: center;
+    }
+ .profile-image {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    .profile-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .links {
+      list-style: none;
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+    .links li {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+    .links li:hover {
+      background-color: #f5f5f5;
+    }
+    .links a {
+      text-decoration: none;
+      color: #000;
+      transition: color 0.3s ease;
+    }
+    .links a:hover {
+      color: #35ecf4;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="C:\Users\User\OneDrive\Pictures\1E888D22-6E8A-4315-BAD9-5D6C29528659.png" alt="Profile" class="profile-image">
+    <h1 class="profile-name">CBN LINK</h1>
+    <ul class="links">
+      <li><a href="https://www.instagram.com/casebynuada" target="_blank">Instagram</a></li>
+      <li><a href="https://www.facebook.com/Casebynuada" target="_blank">Facebook</a></li>
+      <li><a href="https://www.shopee.co.id/case.by.nuada" target="_blank">Shopee</a></li>
+      <li><a href="mailto:casebynuada@email.com" target="_blank">Email</a></li>
+      <!-- Add more links as needed -->
+    </ul>
+  </div>
+</body>
+</html>
